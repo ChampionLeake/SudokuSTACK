@@ -8,12 +8,10 @@ The profile name is limited to 10 bytes, but the string length/size is unchecked
 
 0xB0 = $ra control offset in save game
 0xC0 = Location of the injected binary
-0x08000000 + 0x011051E0 = 0x091051E0: payload address [E0 51 10 09]
-
+0x08800000 + 0x008F5190 = 0x090F51A0: payload address [A0 51 0F 09]
 
 Simple PSP SDK Calls (USA):
 /* SDK functions that was used as a proof-of-concept */
-
 088AFA34:[03E00008]: jr         $ra
 088AFA38:[0010508C]: syscall    0x04142 [sceKernelExitGame]
 34 FA 8A 08
