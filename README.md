@@ -1,21 +1,20 @@
 # SUDOKUSTACK v1.0
 SUDOKUSTACK is savegame exploit for the game, `Carol Vorderman's Sudoku` on the Sony PSP. This exploit will allow users to run unsigned code on the Sony PSP handheld.
-This github repo contains the source code of the the game's color splash binary and the exploitable save. This exploit will soon support a binary loader.
 ###
-__((NOTE THAT THIS EXPLOIT IS STILL BEING WORKED ON AND TESTED FOR OTHER PSP/VITA FIRMWARES))__
-###
+
+This github repo contains the source code of the a ColorSplash Payload and the Binary Loader payload (allows a user to run simple binary code from the memstick file, `H.BIN`.
 ###
 
 ## Upcoming Supports:
 * EUR Support for `Carol Vorderman's Sudoku`
-* Binary Loader support to load other unsigned code
+* Hello World SDK Binary Payload
 ###
 ###
 
 ## Requirements:
 * A PSP/Vita
 * A physical/digital copy of the game, Carol Vorderman's Sudoku (USA/EUR version)
-* USB to go into USB-Mode for the PSP/Vita
+* USB to go into USB-Mode for the PSP
 ###
 ###
 
@@ -30,15 +29,15 @@ Also, creating/modifying the save data for this game may modify certain bytes to
 ###
 
 ## Triggering the exploit:
-* Once you're at the main menu, select the `SUDOKUSTACK` profile
+* Once you're at the main menu, select the `SudokuSTACK` profile
 * Navigate to `High Scores`
 * Watch the magic happpen :D
 ###
 ###
 
 ## Support:
-* USA version of the game 
-* Should work on any PSP handheld model I believe?
+* USA/EUR version of the game 
+* Works on every PSP model (1000, 2000, 3000, etc.)?
 ###
 ###
 
@@ -49,13 +48,7 @@ Also, creating/modifying the save data for this game may modify certain bytes to
 2. __Q:__ What can I do with this exploit?
     - __A:__ Run unsigned custom homebrew binaries (Something small yet but simple)
 
-3. __Q:__ Does this work on a PSVita?
-    - __A:__ Well, I believe it should work on the PSVita, but you can submit an issue so I can take a look into it :)
-
-4. __Q:__ CanI install CFW using this exploit?
-    - __A:__ You actually could but there's so much better exploits out there that can do that.
-
-5. __Q:__ Will you do a writeup on your exploit?
+3. __Q:__ Will you do a writeup on your exploit?
     - __A:__ If you look in `NOTES.txt`, it's not that detailed but it's a straight-forward wrieup.
 
 
